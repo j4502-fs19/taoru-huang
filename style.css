@@ -55,6 +55,9 @@ ul{
 .nav{
   padding: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .nav li {
