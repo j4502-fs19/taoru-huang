@@ -52,19 +52,19 @@ ul{
   background-color: #6bc7be;
 }
 
-#nav{
+.nav{
   padding: 0;
   list-style-type: none;
 }
 
-#nav li {
+.nav li {
   margin: 0;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   text-align: center;
   border-bottom: 1px solid #dde3ed;
 }
 
-#nav a:link, #nav a:visited {
+.nav a:link, .nav a:visited {
   padding: 5px;
   display: block;
   color: #dde3ed;
@@ -72,7 +72,7 @@ ul{
   text-decoration: none;
 }
 
-#nav a:hover, #nav a:active {
+.nav a:hover, .nav a:active {
   background-color: #052533;
 }
 
@@ -84,4 +84,21 @@ ul{
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 12px;
   text-align: center;
+}
+
+@media screen and (min-width: 800px){
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav1 li{
+  width: 25%;
+}
+
+  .nav2 li{
+  width: 20%;
+}
+
 }
