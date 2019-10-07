@@ -93,11 +93,11 @@ ul{
     justify-content: space-between;
   }
 
-  .nav1 li{
+  #nav1 li{
   width: 25%;
 }
 
-  .nav2 li{
+  #nav2 li{
   width: 20%;
 }
 
