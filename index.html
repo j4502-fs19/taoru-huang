@@ -14,13 +14,28 @@
      <body>
        <div id="container">
        <div id="header">
+         <div class="dropdown">
+           <button onclick="myFunction()" class="dropbtn">Menu</button>
+           <div id="myDropdown" class="dropdown-content">
+             <a href="#">Home</a>
+             <a href="#">Photography</a>
+             <a href="#">Design</a>
+           </div>
+         </div>
        <h1>Taoru's website</h1>
        <h2>Website for J4502 Multimedia Planning and Design</h2>
        <ul class="nav" id="nav1">
          <li><a href="index.html">Home</a></li>
-         <li><a href="#">About</a></li>
          <li><a href="#">Photography</a></li>
          <li><a href="#">Design</a></li>
+         <li class="dropdown1">
+           <a href="javascript:void(0)" class="dropbtn1">Dropdown</a>
+           <div class="dropdown-content1">
+             <a href="#">Link 1</a>
+             <a href="#">Link 2</a>
+             <a href="#">Link 3</a>
+           </div>
+         </li>
        </ul>
        </div>
 
@@ -55,4 +70,24 @@
          <p id="footer">Copyright 2019 @Taoru Huang</p>
        </div>
 
+       <script>
+       function myFunction() {
+         document.getElementById("myDropdown").classList.toggle("show");
+       }
+
+       // Close the dropdown if the user clicks outside of it
+       window.onclick = function(event) {
+         if (!event.target.matches('.dropbtn')) {
+           var dropdowns = document.getElementsByClassName("dropdown-content");
+           var i;
+           for (i = 0; i < dropdowns.length; i++) {
+             var openDropdown = dropdowns[i];
+             if (openDropdown.classList.contains('show')) {
+               openDropdown.classList.remove('show');
+             }
+           }
+         }
+       }
+       </script>
+</body>
    </html>
