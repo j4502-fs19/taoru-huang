@@ -1,0 +1,10 @@
+.newspaper-container {
+    text-align: center;
+}
+
+.newspaper_wrapper {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 30px;
+    text-align: center;
+}
