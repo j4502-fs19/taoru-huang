@@ -111,6 +111,15 @@
     overflow: hidden;
     text-align: left;
   }
+
+  .topnav.responsive .topnav-left {
+    float: none;
+  }
+
+  .topnav.responsive .topnav-right {
+    float: none;
+  }
+
   .topnav label {
     display: inline-block;
     font-size: 4em;

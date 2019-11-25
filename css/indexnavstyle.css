@@ -103,14 +103,21 @@
 
 
 
-
-
 /*iPhone 6 and iPhone 6+ portrait and landscape*/
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
   .topnav {
     overflow: hidden;
     text-align: left;
   }
+
+  .topnav.responsive .topnav-left {
+    float: none;
+  }
+
+  .topnav.responsive .topnav-right {
+    float: none;
+  }
+
   .topnav label {
     display: inline-block;
     font-size: 4em;
@@ -132,6 +139,7 @@
   .topnav.responsive {
     position: fixed;
   }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -143,7 +151,7 @@
     text-align: center;
   }
 
-}
+
 
 
 
