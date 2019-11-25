@@ -94,7 +94,7 @@ html, body{
 
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
   .container{
-    margin-top: 16%;
+    margin-top: 18%;
   }
   .newspaperwrapper, .magazinewrapper, .photographywrapper{
     display: flex;
