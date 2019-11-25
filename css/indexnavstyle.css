@@ -58,6 +58,8 @@
     display: inline-block;
     padding: 14px 16px;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
   }
 
   .topnav a {
@@ -119,6 +121,8 @@
   }
 
   .topnav label {
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
     display: inline-block;
     font-size: 4em;
     padding-top: 25px;
