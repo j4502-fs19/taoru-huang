@@ -40,10 +40,9 @@
 }
 
 /* Add an selected class to highlight the current page */
-.topnav a.selected {
-  /* background-color: #ddd; */
+/* .topnav a.selected {
   color: #DE8C5D;
-}
+} */
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -107,9 +106,15 @@
 
 /*iPhone 6 and iPhone 6+ portrait and landscape*/
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+  .topnav.responsive a.selected {
+    color: #de8c5d
+  }
+
   .topnav {
     overflow: hidden;
     text-align: left;
+    background-color: #f2f2f2;
+    opacity: 0.9;
   }
 
   .topnav.responsive .topnav-left {
@@ -127,7 +132,7 @@
     font-size: 4em;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 42%;
+    padding-left: 28%;
   }
 
   .topnav a {
@@ -155,7 +160,7 @@
     text-align: center;
   }
 
-
+}
 
 
 
