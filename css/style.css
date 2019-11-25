@@ -67,9 +67,11 @@ html, body{
 }
 
 .profilepic{
-  text-align: center;
+  width: 40%;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .contact a:link, .contact a:visited{
@@ -105,5 +107,11 @@ html, body{
   .newspaper, .magazine, .photography{
     width: 100%;
     padding-top: 5%;
+  }
+
+  .profilepic{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
